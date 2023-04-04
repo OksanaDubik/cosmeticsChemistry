@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family:Inter;
+}
+.body {
+    max-width: 1920px;
+    background: #faf8f8;
+}
+
+.containers {
+    background: #faf8f8;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    border: 0 none;
+    height: 1px;
+    clear: both;
+}
+
+.btn-menu {
+    display: flex;
+    padding: 0 32px;
+    background: #FFC85E;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-menu:hover {
+    background: #EDEDED;
+}
+
+.btn-img {
+    display: inline-flex;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.back-img-btn {
+    background-color: #FFC85E;
+    border-radius: 30px;
+    position: relative;
+    height: 39px;
+    width: 39px;
+    margin-left: 14px;
+}
+
+.menu-count {
+    border: 2px solid #FFFFFF;
+    background-color: #FFC85E;
+    border-radius: 20px;
+    padding: 4px 22px 32px 13px;
+    position: relative;
+    right: 23px;
+    top: -16px;
+    width: 10px;
+    height: 10px;
+}
+
+.input-navbar {
+    padding: 0 19px;
+    border-radius: 19px;
+    background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+
+}
+
+
